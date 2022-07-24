@@ -69,9 +69,9 @@ while(user_choice):
         num_comparision(game_num,player_num)
         if cow_count==4:
             print("YOU WON"
-                  "TOU HAVE COMPLETED GAME IN",str(score_counter),"CHANCES")
+                  "YOU HAVE COMPLETED GAME IN",str(score_counter),"CHANCES")
             print("DO YOU WANT TO PLAY THE AGAIN"
-                  "ENTR \"y\" TO PLAY AGAIN"
+                  "ENTER \"y\" TO PLAY AGAIN"
                   "ELSE ENTER ANY KEY TO EXIT")
             choice=input("ENTER YOUR CHOICE: ")
             if choice=="y":
